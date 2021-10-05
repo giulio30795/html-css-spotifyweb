@@ -4,4 +4,53 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+/* General */
 
+.test{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.main-container{
+    display: flex;
+    height: 90vh;
+    
+}
+
+aside{
+    background-color: black;
+    width: 250px;
+}
+
+main{
+    background-color: lightcoral;
+    flex-grow: 1;
+    overflow: auto;
+
+
+}
+
+footer{
+    background-color: red;
+    height: 10vh;
+}
+
+.cta-header{
+    height: 8vh;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+}
+
+ul.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul.navbar li{
+    margin: 0 10px;
+}
