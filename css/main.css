@@ -10,6 +10,7 @@
     background-color: red;
     height: 200px;
     width: 200px;
+    margin: 5px;
 }
 
 .main-container{
@@ -17,26 +18,22 @@
     height: 90vh;
     
 }
+/* Aside Section */
 
 aside{
     background-color: black;
     width: 250px;
+    flex-shrink: 0;
 }
 
-main{
-    background-color: lightcoral;
-    flex-grow: 1;
-    overflow: auto;
-    padding-top: 8vh;
+/* Header Section */
 
-
+header.cta-header button{
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
-
-footer{
-    background-color: blue;
-    height: 10vh;
-}
-
 .cta-header{
     display: flex;
     height: 8vh;
@@ -48,14 +45,8 @@ footer{
     right: 0;
     justify-content: flex-end;
     padding: 20px 15px;
-
 }
-header.cta-header button{
-    align-self: center;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1px solid white;
-}
+/* Navbar Section */
 
 ul.navbar{
     display: flex;
@@ -66,4 +57,37 @@ ul.navbar{
 
 ul.navbar li{
     margin: 0 10px;
+}
+
+/* Main Section */
+
+main{
+    background-color: lightcoral;
+    flex-grow: 1;
+    overflow: auto;
+    padding: 8vh 1vh 0vh 1vh;
+  
+}
+/* Playlist Content */
+.playlist-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: blue;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.footer-left, div.footer-center, div.footer-right{
+    background-color: yellow;
+    align-self: center;
+
+
 }
