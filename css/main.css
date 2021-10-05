@@ -49,7 +49,7 @@ aside img{
 
 header.cta-header button{
     align-self: center;
-    padding: 5px 10px;
+    padding: 10px 30px;
     border-radius: 20px;
     border: 1px solid white;
     background-color:transparent;
@@ -80,6 +80,12 @@ ul.navbar li{
     margin: 0 10px;
 }
 
+ul.navbar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 /* Main Section */
 
 main{
@@ -106,7 +112,7 @@ section.playlist{
 }
 
 .playlist-content .card{
-    width: 15%;
+    width: 16%;
     padding: 20px 10px 20px 0;
     text-align: center;
 }
@@ -123,7 +129,38 @@ footer{
 
 footer div.footer-left, div.footer-center, div.footer-right{
     align-self: center;
+    display: flex;
+    justify-content: center;
+
 }
+
+footer div.footer-left img{
+   object-fit: cover;
+   max-height: 5vh;
+   padding: 0px 5px;
+}
+
+footer div.footer-left div{
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE SECTION */
 
