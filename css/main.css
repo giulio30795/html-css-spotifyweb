@@ -14,6 +14,9 @@
     margin: 5px;
 }
 
+.bd-radius{
+    border-radius: 50%;
+}
 .main-container{
     display: flex;
     height: 90vh;
@@ -83,7 +86,7 @@ main{
     background-color:#141922;
     flex-grow: 1;
     overflow: auto;
-    padding: 8vh 1vh 0vh 1vh;
+    padding: 8vh 2vh 0vh 2vh;
   
 }
 /* Playlist Content */
@@ -104,7 +107,7 @@ section.playlist{
 
 .playlist-content .card{
     width: 15%;
-    padding: 20px 5px;
+    padding: 20px 10px 20px 0;
     text-align: center;
 }
 
