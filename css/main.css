@@ -103,8 +103,8 @@ section.playlist{
 }
 
 .playlist-content .card{
-    width: 12%;
-    margin: 20px 5px;
+    width: 15%;
+    padding: 20px 5px;
     text-align: center;
 }
 
@@ -123,3 +123,15 @@ footer div.footer-left, div.footer-center, div.footer-right{
 }
 
 /* RESPONSIVE SECTION */
+
+@media screen and (max-width:1000px){
+    .playlist-content .card{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:750px){
+    .playlist-content .card{
+        width: 50%;
+    }
+}
