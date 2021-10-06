@@ -155,6 +155,7 @@ ul.navbar{
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
@@ -312,10 +313,16 @@ footer .footer-right{
     .playlist-content .card{
         width: 25%;
     }
+    ul.navbar li{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width:750px){
     .playlist-content .card{
         width: 50%;
+    }
+    ul.navbar li{
+        margin-top: 10px;
     }
 }
