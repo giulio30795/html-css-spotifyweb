@@ -154,24 +154,95 @@ footer div.footer-left div{
     margin: 0 10px;
 }
 
-footer .footer-left i{
+footer i{
     margin: 0 5px;
 }
 
 footer .footer-center{
     flex-direction: column;
-    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 footer .footer-center ul{
     list-style: none;
     display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
 }
 
 footer .footer-center ul li{
-    justify-content: center;
     margin: 0 10px;
+    justify-content: center;
+    align-self: center;
 }
+
+footer .footer-center .timeline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center .bar{
+    height: 4px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 0 20px;
+    
+}
+
+.footer-center .bar .color-bar{
+    height:4px;
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer .time{
+    font-size: 10px;
+}
+
+.footer-center .fas, 
+.footer-center .far{
+    font-size: 16px;
+}
+
+footer .footer-center .fa-play-circle.far{
+    font-size: 25px;
+}
+
+footer .footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right .bar .color-bar{
+    height:4px;
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footer-right .bar{
+    height: 4px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
