@@ -141,7 +141,6 @@ footer div.footer-left, div.footer-center, div.footer-right{
     align-self: center;
     display: flex;
     justify-content: center;
-
 }
 
 footer div.footer-left img{
@@ -157,7 +156,21 @@ footer div.footer-left div{
 
 footer .footer-left i{
     margin: 0 5px;
+}
 
+footer .footer-center{
+    flex-direction: column;
+    background-color: red;
+}
+
+footer .footer-center ul{
+    list-style: none;
+    display: flex;
+}
+
+footer .footer-center ul li{
+    justify-content: center;
+    margin: 0 10px;
 }
 
 
