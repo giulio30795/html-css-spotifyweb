@@ -10,16 +10,11 @@
 hr{
     width: 95%;
     margin: 5% auto;
-    text-align: center;
+    
 }
 a{
     text-decoration: none;
 }
-
-a:hover{
-    color: white;
-}
-
 
 .bd-radius{
     border-radius: 50%;
@@ -38,6 +33,35 @@ a:hover{
     font-weight: 500;
 }
 
+/* Hover Section */
+
+header.cta-header button:hover,
+footer .footer-center .fa-play-circle.far:hover{
+    transform: scale(110%);
+}
+
+footer .footer-center .fa-play-circle.far:hover{
+    transform: scale(120%);
+}
+
+a:hover{
+    color: white;
+}
+
+a.app:hover{
+    color: white;
+}
+
+.footer-left i:hover,
+.footer-left span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer-left span:hover{
+    text-decoration: underline;
+}
+
 /* Aside Section */
 
 aside{
@@ -46,7 +70,7 @@ aside{
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    padding: 10px
+    padding: 15px
 }
 
 aside img{
@@ -66,6 +90,7 @@ aside .aside-playlist .svg{
 
 aside ul li {
     margin: 5% 0;
+    list-style: none;
 }
 
 .fa-plus-square{
@@ -74,6 +99,7 @@ aside ul li {
 
 .aside-playlist{
     flex-grow: 1;
+    padding-top: 3%;
 }
 
 .aside-account{
@@ -103,19 +129,20 @@ header.cta-header button{
     border-radius: 20px;
     border: 1px solid white;
     background-color:transparent;
+    cursor: pointer;
 }
 
-.cta-header{
+
+.cta-header{ 
     display: flex;
     height: 8vh;
     width: calc(100% - 250px);
-    text-align: right;
     background-color: rgba(0,0,0,0.3);
     position: fixed;
     top: 0;
     right: 0;
     justify-content: flex-end;
-    padding: 25px 20px;
+    padding: 25px 30px;
 }
 /* Navbar Section */
 
@@ -250,7 +277,7 @@ footer .time{
 }
 
 footer .footer-center .fa-play-circle.far{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 footer .footer-right{
