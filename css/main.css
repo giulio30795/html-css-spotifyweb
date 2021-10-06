@@ -112,9 +112,10 @@ section.playlist{
 }
 
 .playlist-content .card{
-    width: 16%;
+    width: calc(100% / 6);
     padding: 20px 10px 20px 0;
     text-align: center;
+    list-style: none;
 }
 
 
