@@ -7,10 +7,18 @@
 }
 /* General */
 
+hr{
+    width: 95%;
+    margin: 5% auto;
+    text-align: center;
+}
 a{
     text-decoration: none;
 }
 
+a:hover{
+    color: white;
+}
 
 
 .bd-radius{
@@ -27,6 +35,7 @@ a{
 
 .grey{
     color: #6a6d72;
+    font-weight: 500;
 }
 
 /* Aside Section */
@@ -46,15 +55,15 @@ aside img{
 
 aside .aside-playlist .svg{
     width: 15%;
-    margin-right: 3% ;
+    margin-right: 3%;
 }
 
 .aside-link{
     display: flex;
     align-items: center;
     margin: 2% 0;
-    text-decoration: none;
 }
+
 aside ul li {
     margin: 5% 0;
 }
@@ -68,7 +77,22 @@ aside ul li {
 }
 
 .aside-account{
-    background-color: red;
+    font-size: 14px;
+}
+.app{
+    display: flex;
+    align-items: center;
+}
+.download-app{
+    width: 8%;
+    margin-right: 4%;
+}
+
+.profile{
+    width: 10%;
+    background-color: #808080;
+    border-radius: 50%;
+    margin-right: 4%;
 }
 
 /* Header Section */
