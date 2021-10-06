@@ -45,6 +45,15 @@ aside img{
     width: 80%;
 }
 
+.aside-playlist{
+    background-color: grey;
+    flex-grow: 1;
+}
+
+.aside-account{
+    background-color: red;
+}
+
 /* Header Section */
 
 header.cta-header button{
@@ -143,9 +152,13 @@ footer div.footer-left img{
 
 footer div.footer-left div{
     align-self: center;
+    margin: 0 10px;
 }
 
+footer .footer-left i{
+    margin: 0 5px;
 
+}
 
 
 
