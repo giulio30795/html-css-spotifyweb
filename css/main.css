@@ -9,8 +9,11 @@
 
 hr{
     width: 95%;
-    margin: 5% auto;
-    
+    margin-top: 10px;
+}
+
+h4{
+    margin: 10px 0;
 }
 a{
     text-decoration: none;
@@ -26,6 +29,7 @@ a{
 
 .subtitle{
     font-size: 12px;
+    margin: 15px 0;
 }
 
 .grey{
@@ -119,6 +123,7 @@ aside ul li {
     background-color: #808080;
     border-radius: 50%;
     margin-right: 4%;
+    
 }
 
 /* Header Section */
@@ -300,32 +305,6 @@ footer .footer-right{
     border-radius: 5px;
     margin: 0 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPONSIVE SECTION */
 
