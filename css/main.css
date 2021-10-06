@@ -7,12 +7,11 @@
 }
 /* General */
 
-.test{
-    background-color: lightgrey;
-    height: 200px;
-    width: 200px;
-    margin: 5px;
+a{
+    text-decoration: none;
 }
+
+
 
 .bd-radius{
     border-radius: 50%;
@@ -45,8 +44,26 @@ aside img{
     width: 80%;
 }
 
+aside .aside-playlist .svg{
+    width: 15%;
+    margin-right: 3% ;
+}
+
+.aside-link{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    text-decoration: none;
+}
+aside ul li {
+    margin: 5% 0;
+}
+
+.fa-plus-square{
+    font-size: 40px;
+}
+
 .aside-playlist{
-    background-color: grey;
     flex-grow: 1;
 }
 
@@ -90,7 +107,6 @@ ul.navbar li{
 }
 
 ul.navbar li a{
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
