@@ -37,6 +37,10 @@ a{
     font-weight: 500;
 }
 
+.aside-playlist img{
+    filter: invert(.6);
+}
+
 /* Hover Section */
 
 header.cta-header button:hover{
@@ -47,11 +51,23 @@ footer .footer-center .fa-play-circle.far:hover{
     transform: scale(120%);
 }
 
+.aside-playlist ul li :hover, 
+.aside-playlist ul li:hover img{
+    color: white;
+    filter: invert(0);
+}
+
+.aside-account a.app :hover, 
+.aside-account  a.app:hover img{
+    color: white;
+    filter: invert(0);
+}
+
 a:hover{
     color: white;
 }
 
-a.app:hover{
+ul li a:hover .fas.fa-plus-square{
     color: white;
 }
 
@@ -141,6 +157,7 @@ aside ul li {
 .download-app{
     width: 8%;
     margin-right: 4%;
+    filter: invert(.6);
 }
 
 .profile{
