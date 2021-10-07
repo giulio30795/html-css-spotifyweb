@@ -15,6 +15,7 @@ hr{
 h4{
     margin: 10px 0;
 }
+
 a{
     text-decoration: none;
 }
@@ -22,6 +23,7 @@ a{
 .bd-radius{
     border-radius: 50%;
 }
+
 .main-container{
     display: flex;
     height: 90vh;
@@ -117,6 +119,7 @@ aside{
 aside .logo-big{
     width: 80%;
 }
+
 aside .logo-small{
     width: 15%;
     display: none;
@@ -150,6 +153,7 @@ aside ul li {
 .aside-account{
     font-size: 14px;
 }
+
 .app{
     display: flex;
     align-items: center;
@@ -165,7 +169,6 @@ aside ul li {
     background-color: #808080;
     border-radius: 50%;
     margin-right: 4%;
-    
 }
 
 /* Header Section */
@@ -179,7 +182,6 @@ header.cta-header button{
     cursor: pointer;
 }
 
-
 .cta-header{ 
     display: flex;
     height: 8vh;
@@ -191,6 +193,7 @@ header.cta-header button{
     justify-content: flex-end;
     padding: 25px 30px;
 }
+
 /* Navbar Section */
 
 ul.navbar{
@@ -217,7 +220,6 @@ main{
     flex-grow: 1;
     overflow: auto;
     padding: 8vh 2vh 0vh 2vh;
-  
 }
 /* Playlist Content */
 
@@ -233,7 +235,6 @@ section.playlist{
 
 .playlist-content .card img{
     max-width: 100%;
-
 }
 
 .playlist-content .card{
@@ -291,7 +292,6 @@ footer .footer-center{
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 footer .footer-center ul{
@@ -318,8 +318,7 @@ footer .footer-center .timeline{
     width: 20vw;
     background-color: grey;
     border-radius: 5px;
-    margin: 0 20px;
-    
+    margin: 0 20px; 
 }
 
 .footer-center .bar .color-bar{
@@ -437,6 +436,6 @@ footer .footer-right{
     }
     .footer-center .fas, 
     .footer-center .far{
-    font-size: 12px;
-}
+        font-size: 12px;
+    }
 }
