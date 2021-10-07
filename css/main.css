@@ -371,7 +371,7 @@ footer .footer-right{
 
 .footer-right .bar{
     height: 4px;
-    width: 100px;
+    width: 7vw;
     background-color: grey;
     border-radius: 5px;
     margin: 0 20px;
@@ -395,9 +395,13 @@ footer .footer-right{
     ul.navbar li{
         margin-top: 10px;
     }
+    .footer-center .fas, 
+    .footer-center .far{
+    font-size: 14px;
+    }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     aside ul:nth-of-type(2){
         display: none;
     }
@@ -431,4 +435,8 @@ footer .footer-right{
         width: 100%;
         margin-top: 20px; 
     }
+    .footer-center .fas, 
+    .footer-center .far{
+    font-size: 12px;
+}
 }
