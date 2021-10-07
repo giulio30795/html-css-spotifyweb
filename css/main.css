@@ -39,8 +39,7 @@ a{
 
 /* Hover Section */
 
-header.cta-header button:hover,
-footer .footer-center .fa-play-circle.far:hover{
+header.cta-header button:hover{
     transform: scale(110%);
 }
 
@@ -64,6 +63,14 @@ a.app:hover{
 
 .footer-left span:hover{
     text-decoration: underline;
+}
+
+.play-image:hover img{
+    opacity: 0.6;
+}
+
+.play-image:hover .fa-play-circle{
+    display: block;
 }
 
 /* Aside Section */
@@ -191,6 +198,7 @@ section.playlist{
 
 .playlist-content .card img{
     max-width: 100%;
+
 }
 
 .playlist-content .card{
@@ -200,6 +208,19 @@ section.playlist{
     list-style: none;
 }
 
+.play-image {
+    position: relative;
+
+}
+
+.play-image .fa-play-circle{
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
 
 /* Footer Section */
 
